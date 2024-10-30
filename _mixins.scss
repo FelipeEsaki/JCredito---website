@@ -1,5 +1,5 @@
 $cor-primaria: #Ff8900;
-$cor-secundaria: #373435;
+$cor-secundaria: #2146BE;
 $cor-branco: #fff;
 $cor-preto: #000;
 $cor-cinza: #a7a7a7;
@@ -8,7 +8,7 @@ $cor-cinza: #a7a7a7;
 
 // header
 @mixin header {
-    background: linear-gradient(to bottom, #000, #242424);
+    background-color: $cor-secundaria;
     height: 250px;
 
     .header__all {
